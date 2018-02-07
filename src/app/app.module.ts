@@ -11,6 +11,7 @@ import { TrainingComponent } from './training/training.component';
 import { CurrentTrainigComponent } from './training/current-trainig/current-trainig.component';
 import { NewTrainigComponent } from './training/new-trainig/new-trainig.component';
 import { PastTrainigComponent } from './training/past-trainig/past-trainig.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { PastTrainigComponent } from './training/past-trainig/past-trainig.compo
     TrainingComponent,
     CurrentTrainigComponent,
     NewTrainigComponent,
-    PastTrainigComponent
+    PastTrainigComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
