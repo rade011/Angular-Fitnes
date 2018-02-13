@@ -14,6 +14,8 @@ import { CurrentTrainigComponent } from './training/current-trainig/current-trai
 import { NewTrainigComponent } from './training/new-trainig/new-trainig.component';
 import { PastTrainigComponent } from './training/past-trainig/past-trainig.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { HeaderComponent } from './navigation/header/header.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 
 
 
@@ -26,7 +28,9 @@ import { WelcomeComponent } from './welcome/welcome.component';
     CurrentTrainigComponent,
     NewTrainigComponent,
     PastTrainigComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    HeaderComponent,
+    SidenavListComponent
   ],
   imports: [
     BrowserModule,
