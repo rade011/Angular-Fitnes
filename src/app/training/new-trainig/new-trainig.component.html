@@ -1,3 +1,28 @@
-<p>
-  new-trainig works!
-</p>
+<section class="new-training" fxLayout fxLayoutAlign="center">
+    <mat-card fxFlex.xs="100%"  fxFlex="400px">
+      <mat-card-title>Start yout training</mat-card-title>
+      <mat-card-content>
+          <mat-form-field>
+            <mat-select placeholder="Favorite practice">
+              <mat-option value="crunches">
+                Crunches
+              </mat-option>
+              <mat-option value="crunches">
+                Crunches
+              </mat-option>
+              <mat-option value="crunches">
+                Crunches
+              </mat-option>
+              <mat-option value="crunches">
+                Crunches
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+      </mat-card-content>
+      <mat-card-actions fxLayoutAlign="center">
+        <button mat-raised-button color="accent"
+                (click)="onStartTraining()">Start</button>
+      </mat-card-actions>
+    </mat-card>
+</section>
+
